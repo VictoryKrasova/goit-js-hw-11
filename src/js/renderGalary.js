@@ -1,5 +1,4 @@
 import { refs } from '../js/refs.js';
-import { scroll } from './scroll.js';
 import { newSimpleLightBox } from './newSimpleLightBox.js';
 
 export function renderGallery(images) {
@@ -47,10 +46,5 @@ export function renderGallery(images) {
   refs.gallery.insertAdjacentHTML('beforeend', gallery);
 
   newSimpleLightBox.refresh();
-
-  //   onIntersectionObserver();
-
-  //   if (instanceApiService.numberPage > 2) {
-  //     scroll();
-  //   }
+ 
 }

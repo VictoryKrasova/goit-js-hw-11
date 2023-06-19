@@ -67,10 +67,7 @@ input {
   padding: 14px 24px;
   font-size: 18px;
   line-height: 1.222;
-   
-   /* left: 50%; */
-  /* height: 50px; */
-  min-width: 450px;
+     min-width: 450px;
   border: 1.5px solid rgba(17,17,17,.05);
   outline: none;
   margin-left: auto;
@@ -85,11 +82,8 @@ position: relative;
   position: absolute;
   top: 50%;
   right: 39%;
-  /* transform: translateY(-50%); */
   position: absolute;
-    
-    
-    transform: translateY(-50%);
+  transform: translateY(-50%);
   border-radius: 4px;
   cursor: pointer;
   text-transform: uppercase;
@@ -97,8 +91,7 @@ position: relative;
   font-weight: bold;
   background-color: transparent;
   border: none;
-  /* margin-left: 50px; */
-}
+  }
 .icon{
 border: none;
 }

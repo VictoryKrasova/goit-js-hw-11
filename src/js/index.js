@@ -1,7 +1,4 @@
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import axios from 'axios';
 import { refs } from './refs.js';
-import { renderGallery } from './renderGalary.js';
 import { fetchImages } from './fetchImages.js';
 import { fetchMoreImages } from './fetchImages.js';
 
