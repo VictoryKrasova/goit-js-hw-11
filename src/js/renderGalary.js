@@ -1,6 +1,6 @@
 import { refs } from '../js/refs.js';
 import { scroll } from './scroll.js';
-import { newSimpleLightBox } from './newSimpleLightbox.js';
+import { newSimpleLightBox } from './newSimpleLightBox.js';
 
 export function renderGallery(images) {
   const gallery = images
