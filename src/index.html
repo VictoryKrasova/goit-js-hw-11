@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Galary</title>
+    <link rel="stylesheet" href="./ccs/styles.css" />
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="wrapper">
+      <div class="container-form">
+        
+        <form class="search-form" id="search-form">
+            <input
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button type="submit" class="btn-search"> <img class=icon src="./img/icon.png" width="28" height="28"></button>
+        </form>
+      
+      </div>
+      <div class="gallery">
+        <!-- Картки зображень -->
+      </div>
+    </div>
+    <button type="button" class="load-more">Load more</button>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.13.0/simple-lightbox.min.js"
+      integrity="sha512-va85zLd+1szc8k3CyJ26pBSluqH+c3H+SOf4cBWhpHFU3ZI331gE6nqLUIm0kd1e0HcZq5YYwdHuSed8IhACAA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>
